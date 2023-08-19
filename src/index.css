@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.todo-container{
+  width: 500px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00ff0d;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 10px;
+  .todoList{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    .Tasks{
+      justify-content: center;
+      display: flex;
+      font-size: 22px;
+    }
+    .task{
+      color: white;
+    }
+  }
+}
+
+.inputButton{
+  display: flex;
+  gap: 10px;
+  .todoInput{
+    height: 25px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: white;
+    padding-left: 10px;
+  }
+  .todoButton{
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+
+  }
+}
+
